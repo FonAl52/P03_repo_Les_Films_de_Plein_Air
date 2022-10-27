@@ -240,7 +240,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #0085A1;
+  color: #452b3e;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2998,32 +2998,32 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #452b3e;
+  border-color: #452b3e;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #007189;
-  border-color: #006a81;
+  background-color: #a2959e;
+  border-color: #a2959e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #007189;
-  border-color: #006a81;
-  box-shadow: 0 0 0 0.25rem rgba(38, 151, 175, 0.5);
+  background-color: #a2959e;
+  border-color: #a2959e;
+  box-shadow: 0 0 0 0.25rem #452b3e;
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #006a81;
-  border-color: #006479;
+  background-color: #452b3e;
+  border-color: #a2959e;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(38, 151, 175, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #a2959e;
+  border-color: #452b3e;
 }
 
 .btn-secondary {
@@ -11047,6 +11047,8 @@ blockquote {
 }
 #mainNav .navbar-brand {
   font-weight: 800;
+  position: relative;
+  z-index: -1;
 }
 #mainNav .navbar-toggler {
   font-size: 0.75rem;
@@ -11063,19 +11065,20 @@ blockquote {
 @media (min-width: 992px) {
   #mainNav {
     border-bottom: 1px solid transparent;
-    background: transparent;
+    background: white;
+    opacity: .6;
   }
   #mainNav .navbar-brand {
-    color: #fff;
+    color: #452b3e;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #a2959e;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    color: #fff;
+    color: #452b3e;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #a2959e;
   }
 }
 @media (min-width: 992px) {
@@ -11089,22 +11092,25 @@ blockquote {
   #mainNav.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
-    top: -83px;
+    top: -113px;
     transition: transform 0.2s;
     border-bottom: 1px solid white;
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #212529;
+  }
+  #mainNav.is-fixed .navbar-brand {
+    color: #452b3e;
+    opacity: 1;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #a2959e;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #212529;
+    color: #452b3e;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #a2959e;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -11221,7 +11227,7 @@ header.masthead .site-heading .h1 {
 }
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #a2959e;
 }
 .post-preview > a > .post-title {
   font-size: 1.875rem;
@@ -11236,7 +11242,7 @@ header.masthead .site-heading .h1 {
   font-size: 1.125rem;
   font-style: italic;
   margin-top: 0;
-  color: #6c757d;
+  color: #452b3e;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
