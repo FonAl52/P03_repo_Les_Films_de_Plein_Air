@@ -240,7 +240,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #452b3e;
+  color: #a2959e;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3536,6 +3536,7 @@ textarea.form-control-lg {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
+
 .dropdown-menu[data-bs-popper] {
   top: 100%;
   left: 0;
